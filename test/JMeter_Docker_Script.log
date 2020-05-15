@@ -1,0 +1,140 @@
+2020-05-15 20:47:59,526 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-05-15 20:47:59,557 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-5.2.1/bin/user.properties
+2020-05-15 20:47:59,559 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-5.2.1/bin/system.properties
+2020-05-15 20:47:59,560 INFO o.a.j.JMeter: Setting JMeter property: threads=20
+2020-05-15 20:47:59,561 INFO o.a.j.JMeter: Setting JMeter property: rampup=20
+2020-05-15 20:47:59,562 INFO o.a.j.JMeter: Setting JMeter property: duration=240
+2020-05-15 20:47:59,564 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-05-15 20:47:59,565 INFO o.a.j.JMeter: Version 5.2.1
+2020-05-15 20:47:59,565 INFO o.a.j.JMeter: java.version=1.8.0_242
+2020-05-15 20:47:59,566 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-05-15 20:47:59,566 INFO o.a.j.JMeter: os.name=Linux
+2020-05-15 20:47:59,567 INFO o.a.j.JMeter: os.arch=amd64
+2020-05-15 20:47:59,567 INFO o.a.j.JMeter: os.version=4.19.76-linuxkit
+2020-05-15 20:47:59,568 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-05-15 20:47:59,568 INFO o.a.j.JMeter: java.awt.headless=true
+2020-05-15 20:47:59,569 INFO o.a.j.JMeter: Max memory     =897581056
+2020-05-15 20:47:59,569 INFO o.a.j.JMeter: Available Processors =4
+2020-05-15 20:47:59,575 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-05-15 20:47:59,576 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-05-15 20:47:59,577 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-5.2.1
+2020-05-15 20:47:59,577 INFO o.a.j.JMeter: user.dir  =/Users/antoniojn/Documents/GitHub/JMeter_Docker
+2020-05-15 20:47:59,579 INFO o.a.j.JMeter: PWD       =/Users/antoniojn/Documents/GitHub/JMeter_Docker
+2020-05-15 20:47:59,580 INFO o.a.j.JMeter: IP: 172.17.0.2 Name: af7beac1aa31 FullName: af7beac1aa31
+2020-05-15 20:47:59,589 INFO o.a.j.s.FileServer: Default base='/Users/antoniojn/Documents/GitHub/JMeter_Docker'
+2020-05-15 20:47:59,596 INFO o.a.j.s.FileServer: Set new base='/Users/antoniojn/Documents/GitHub/JMeter_Docker/test'
+2020-05-15 20:47:59,802 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-15 20:47:59,821 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-15 20:47:59,829 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-15 20:47:59,840 INFO o.a.j.s.SaveService: Loading file: test/JMeter_Docker_Script.jmx
+2020-05-15 20:47:59,895 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-05-15 20:47:59,901 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2020-05-15 20:47:59,921 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:47:59,922 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:47:59,923 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:47:59,923 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:47:59,924 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-05-15 20:47:59,924 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-05-15 20:47:59,948 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-05-15 20:47:59,964 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-05-15 20:47:59,967 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-15 20:47:59,967 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-15 20:47:59,976 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-05-15 20:47:59,977 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-05-15 20:48:00,509 INFO o.a.j.JMeter: Running test (1589575680509)
+2020-05-15 20:48:00,559 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-05-15 20:48:00,563 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2020-05-15 20:48:00,564 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-15 20:48:00,564 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=0 delayedStart=true
+2020-05-15 20:48:00,566 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-05-15 20:48:00,567 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-05-15 20:48:00,578 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-05-15 20:48:00,578 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-05-15 20:48:00,579 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-05-15 20:48:00,583 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-05-15 20:48:00,585 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-05-15 20:48:00,588 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-05-15 20:48:00,589 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-05-15 20:48:00,588 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-05-15 20:48:00,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-05-15 20:48:00,601 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-05-15 20:48:00,603 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-05-15 20:48:00,606 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-05-15 20:48:00,608 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = af7beac1aa31
+2020-05-15 20:48:00,609 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-05-15 20:48:00,611 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-05-15 20:48:00,613 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-05-15 20:48:00,614 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-05-15 20:48:00,615 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-05-15 20:48:00,615 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-05-15 20:48:00,617 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-05-15 20:48:00,618 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-05-15 20:48:00,621 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-05-15 20:48:00,624 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-15 20:48:00,625 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-15 20:48:00,625 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-15 20:48:00,626 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-15 20:48:00,769 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-05-15 20:48:00,780 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-05-15 20:48:00,781 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-05-15 20:48:00,984 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-05-15 20:48:00,990 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-05-15 20:48:00,991 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-05-15 20:48:02,151 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,151 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,151 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,159 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,160 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,151 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,159 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,159 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,152 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-15 20:48:02,268 INFO o.a.j.r.Summariser: summary +      1 in 00:00:02 =    0.6/s Avg:  1418 Min:  1418 Max:  1418 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:48:31,328 INFO o.a.j.r.Summariser: summary +     60 in 00:00:29 =    2.1/s Avg:  1007 Min:   693 Max:  2657 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:48:31,334 INFO o.a.j.r.Summariser: summary =     61 in 00:00:31 =    2.0/s Avg:  1014 Min:   693 Max:  2657 Err:     0 (0.00%)
+2020-05-15 20:49:01,296 INFO o.a.j.r.Summariser: summary +     60 in 00:00:30 =    2.0/s Avg:  1072 Min:   698 Max:  2689 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:49:01,297 INFO o.a.j.r.Summariser: summary =    121 in 00:01:01 =    2.0/s Avg:  1043 Min:   693 Max:  2689 Err:     0 (0.00%)
+2020-05-15 20:49:31,385 INFO o.a.j.r.Summariser: summary +     60 in 00:00:30 =    2.0/s Avg:  1039 Min:   690 Max:  2251 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:49:31,388 INFO o.a.j.r.Summariser: summary =    181 in 00:01:31 =    2.0/s Avg:  1042 Min:   690 Max:  2689 Err:     0 (0.00%)
+2020-05-15 20:50:01,290 INFO o.a.j.r.Summariser: summary +     60 in 00:00:30 =    2.0/s Avg:   892 Min:   702 Max:  2181 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:50:01,291 INFO o.a.j.r.Summariser: summary =    241 in 00:02:01 =    2.0/s Avg:  1004 Min:   690 Max:  2689 Err:     0 (0.00%)
+2020-05-15 20:50:31,320 INFO o.a.j.r.Summariser: summary +     60 in 00:00:30 =    2.0/s Avg:   777 Min:   697 Max:  2386 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:50:31,323 INFO o.a.j.r.Summariser: summary =    301 in 00:02:31 =    2.0/s Avg:   959 Min:   690 Max:  2689 Err:     0 (0.00%)
+2020-05-15 20:51:01,287 INFO o.a.j.r.Summariser: summary +     60 in 00:00:30 =    2.0/s Avg:   976 Min:   694 Max:  2211 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:51:01,290 INFO o.a.j.r.Summariser: summary =    361 in 00:03:01 =    2.0/s Avg:   962 Min:   690 Max:  2689 Err:     0 (0.00%)
+2020-05-15 20:51:31,336 INFO o.a.j.r.Summariser: summary +     60 in 00:00:30 =    2.0/s Avg:   917 Min:   701 Max:  2241 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2020-05-15 20:51:31,339 INFO o.a.j.r.Summariser: summary =    421 in 00:03:31 =    2.0/s Avg:   955 Min:   690 Max:  2689 Err:     0 (0.00%)
+2020-05-15 20:51:51,281 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-05-15 20:51:51,286 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-05-15 20:51:51,290 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-05-15 20:51:51,291 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-05-15 20:51:51,302 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-05-15 20:51:51,299 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-05-15 20:51:51,297 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-05-15 20:51:51,292 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-05-15 20:51:51,307 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-05-15 20:51:51,312 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-05-15 20:51:51,332 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-05-15 20:51:51,339 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-05-15 20:51:51,366 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-05-15 20:51:51,401 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-05-15 20:51:51,489 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-05-15 20:51:51,642 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-05-15 20:51:51,678 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-05-15 20:51:51,680 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-05-15 20:51:52,855 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-05-15 20:51:52,862 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-05-15 20:51:52,863 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-05-15 20:51:52,867 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2020-05-15 20:51:52,871 INFO o.a.j.r.Summariser: summary +     59 in 00:00:22 =    2.7/s Avg:   908 Min:   696 Max:  2242 Err:     0 (0.00%) Active: 0 Started: 20 Finished: 20
+2020-05-15 20:51:52,872 INFO o.a.j.r.Summariser: summary =    480 in 00:03:52 =    2.1/s Avg:   949 Min:   690 Max:  2689 Err:     0 (0.00%)
